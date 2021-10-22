@@ -1,4 +1,4 @@
-@media(max-width: 900px) {
+@media(max-width: 980px) {
     p{
         font-size: .9rem;
     }
@@ -60,5 +60,8 @@
     }
     .contact-title{
         font-size: 1.8;
+    }
+    .button-carousel{
+        display: none;
     }
 }
