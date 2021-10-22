@@ -199,6 +199,9 @@ h1 {
     color: #ECE7B4;
     margin: 0 10px;
 }
+.form-floating{
+    color: black;
+}
 ::-webkit-scrollbar{
     width: 10px;
 }
