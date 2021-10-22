@@ -1,0 +1,26 @@
+.scale-down-center {
+	-webkit-animation: scale-down-center .8s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+	        animation: scale-down-center .8s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+            pointer-events: none;
+}
+ @-webkit-keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+  }
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+  }
+  
