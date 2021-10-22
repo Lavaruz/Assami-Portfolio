@@ -25,9 +25,11 @@
     }
 
     #skills {
-        padding: 5% 13%;
+        padding: 5% 17%;
     }
-
+    .skill-title{
+        margin-bottom: 60px;
+    }
     .card {
         margin-bottom: 20px;
     }
@@ -63,5 +65,8 @@
     }
     .button-carousel{
         display: none;
+    }
+    .call{
+        margin-top: 20px;
     }
 }
