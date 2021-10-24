@@ -17,3 +17,33 @@ speakerImgUp.addEventListener('click', function(){
     speakerImgMute.style.display = "block"
     speakerImgUp.style.display = "none"
 })
+
+// Clicker
+
+var coll = document.querySelectorAll('.card');
+var i;
+var x = window.matchMedia('(max-width:900px)')
+const werehouse = document.querySelector('.portfolio-heading h1')
+
+    if (x.matches) {
+        werehouse.textContent = "- Werehouse -"
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+            var content = this.lastElementChild.lastElementChild
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+              }
+          });
+        }
+    }else{
+        werehouse.textContent = "Werehouse"
+    }
+
+
