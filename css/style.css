@@ -16,7 +16,9 @@ h2 {
     font-family: 'Poppins';
     text-decoration: underline;
 }
-
+p{
+    line-height: 2;
+}
 .loadingPage {
     position: fixed;
     width: 100%;
@@ -89,7 +91,7 @@ h2 {
 }
 
 #skills {
-    padding: 5% 7%;
+    padding: 2% 7%;
 }
 
 .skill-title {
@@ -167,12 +169,11 @@ h2 {
     min-height: 150px;
 }
 
-.portfolio-explain2 {
-    display: none;
+.apilink{
+    color: #ECE7B4;
 }
-
-.portfolio-explain h2 {
-    margin-bottom: 20px;
+.apilink:hover{
+    color: #f5f2d8;
 }
 
 #contact {
