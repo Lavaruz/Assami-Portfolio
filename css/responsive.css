@@ -6,13 +6,15 @@
     h1 {
         font-size: 1.8rem;
     }
-    .portfolio-heading{
+
+    .portfolio-heading {
         margin-bottom: 22%;
     }
+
     .portfolio-heading p {
         display: none;
     }
-    
+
     h2 {
         font-size: 1.2rem;
     }
@@ -22,10 +24,9 @@
     }
 
     .card-text {
-        display: none;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.2s ease-out;
+        transition: all 0.2s ease-out;
     }
 
     .card:hover {
@@ -70,9 +71,11 @@
     #portfolio {
         padding-bottom: 7%;
     }
-    .portfolio-explain{
+
+    .portfolio-explain {
         padding: 5%;
     }
+
     #contact {
         padding: 20% 15%;
     }
@@ -89,16 +92,32 @@
         margin-top: 20px;
     }
 
-    .gambar-portfolio{
+    .gambar-portfolio {
         display: none;
     }
-    .portfolio-heading h1{
+
+    .portfolio-heading h1 {
         margin: auto;
     }
-    #contact{
-        padding: 46% 10%;
+
+    #contact {
+        padding: 35% 10%;
     }
-    .call{
-        top: 80%;
+
+    .call {
+        top: 88%;
+    }
+
+    .card:after {
+        content: '\02795';
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #ECE7B4;
+        float: left;
+        margin-left: 90%;
+    }
+
+    .active:after {
+        content: "\2212";
     }
 }
