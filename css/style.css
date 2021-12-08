@@ -18,6 +18,7 @@ h2 {
 }
 p{
     line-height: 2;
+    font-size: .9rem;
 }
 .loadingPage {
     position: fixed;
@@ -34,8 +35,11 @@ p{
 
 .nav-item {
     font-family: 'Montserrat';
-    /* font-weight: bold; */
+    font-weight: bold;
     margin-left: 30px;
+}
+.nav-link{
+    color: #32502E;
 }
 
 .arrow-back {
@@ -72,8 +76,8 @@ p{
 
 .title {
     font-size: 3.5rem;
-    margin-bottom: 20px;
 }
+
 
 #aboutme {
     padding: 10% 12%;
@@ -83,6 +87,7 @@ p{
 
 .aboutme-title {
     margin-bottom: 20px;
+    font-size: 2.4rem;
 }
 
 .gambarme {
@@ -112,6 +117,12 @@ p{
 
 }
 
+/* .card-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+} */
+
 
 .card {
     text-align: left;
@@ -136,7 +147,7 @@ p{
 }
 
 .carousel-item {
-    padding: 0% 22% 3%;
+    padding: 0% 12% 8%;
 }
 
 .carousel-img {
@@ -162,18 +173,15 @@ p{
     margin-left: 30px;
 }
 .portfolio-explain {
-    background-color: #32502E;
-    color: #ECE7B4;
-    padding: 2% 2%;
-    border-radius: 20px;
-    min-height: 150px;
+    font-weight: 600;
+    color: #32502E;
 }
 
 .apilink{
-    color: #ECE7B4;
+    color: #32502E;
 }
 .apilink:hover{
-    color: #f5f2d8;
+    color: #446940;
 }
 
 #contact {
@@ -198,6 +206,18 @@ p{
     background-color: #ECE7B4;
     color: #32502E;
     margin-top: 30px;
+}
+.btn-outline-primary-about {
+    border-color: #ECE7B4;
+    color: #ECE7B4;
+    margin-top: 10px;
+}
+
+.btn-outline-primary-about:hover {
+    border-color: #ECE7B4;
+    background-color: #ECE7B4;
+    color: #32502E;
+    margin-top: 10px;
 }
 
 .call {
@@ -224,6 +244,7 @@ p{
 .form-floating {
     color: black;
 }
+
 
 ::-webkit-scrollbar {
     width: 10px;

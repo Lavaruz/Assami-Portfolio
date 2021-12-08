@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 100vh;
+            background-color: white;
+        }
+        .box[data-nomor='1']{
+            width: 100px;height: 100px;
+            background-color: red;
+        }
+        .box[data-nomor='2']{
+            width: 100px;height: 100px;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="item">
+        <div class="box" data-nomor='1'></div>
+    </div>
+
+</body>
+
+<script>
+    document.querySelector('.box').addEventListener('click', function(){
+        document.querySelector('.box').dataset.nomor = '2'
+    })
+</script>
+
+</html>

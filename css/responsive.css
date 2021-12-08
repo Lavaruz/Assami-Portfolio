@@ -1,6 +1,6 @@
 @media(max-width: 980px) {
     p {
-        font-size: .9rem;
+        font-size: .86rem;
     }
 
     h1 {
@@ -8,7 +8,7 @@
     }
 
     .portfolio-heading {
-        margin-bottom: 22%;
+        margin-bottom: 10%;
     }
 
     .portfolio-heading p {
@@ -17,6 +17,13 @@
 
     h2 {
         font-size: 1.2rem;
+    }
+
+    .aboutme-title{
+        font-size: 1.8rem;
+    }
+    .h3-porto-heading{
+        font-size: 1.3rem;
     }
 
     #heading {
